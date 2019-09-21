@@ -8,7 +8,11 @@
 3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
 Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
 learning new things from everywhere etc.).
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
+## Skills
+* Windows, Linux, Sun Solaris
+* Programming for different CAD systems (CATScript, VB, Autodesk Intent Language, etc.)
+* SVN, Git
+* HTML/CSS/JS
 ## Code example:
 ```js
 let getCellRangeFunc = this.getCellRange;
