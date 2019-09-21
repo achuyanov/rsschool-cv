@@ -1,19 +1,21 @@
+Junior Frontend Developer CV
 # Andrei Chuyanov
-## Contact:
+## Contacts
 
 * email: achuyanov@gmail.com
 * skype: andrei.chuyanov
 * mobile: +375297540133
 
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-learning new things from everywhere etc.).
+## Summary
+I already have some programming knowledge. I want to know more techolodgies and be able to use it.
 ## Skills
-* Windows, Linux, Sun Solaris
+* Windows, Linux, Sun Solaris, FreeBSD
 * Programming for different CAD systems (CATScript, VB, Autodesk Intent Language, etc.)
 * SVN, Git
 * HTML/CSS/JS
-## Code example:
+* SQL
+* XML
+## Code example
 ```js
 let getCellRangeFunc = this.getCellRange;
 return function(workSheet, range){
@@ -27,12 +29,13 @@ return function(workSheet, range){
     return obj;
 }
 ```
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-freelance projects - wherever they had the opportunity to demonstrate skills they have.
-Also it would be awesome if you add links to source code)
+## Experience
+    Engineering automation projects - 5 years. Work in multilingual environments.
 ## Education
 * Belarusian National Technical University \  Mechanical Engineering Department 2003
 * Codecademy courses : Introduction to HTML, Learn CSS, Introduction to JavaScript
 
-## English language
-* Upper-Intermediate level
+## Languages
+ * English - B2
+ * French - A1
+ * Polish - A2
