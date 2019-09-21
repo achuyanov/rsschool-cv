@@ -29,8 +29,10 @@ return function(workSheet, range){
     return obj;
 }
 ```
+
 ## Experience
-    Engineering automation projects - 5 years. Work in multilingual environments.
+Engineering automation projects - 5 years. Work in multilingual environments.
+
 ## Education
 * Belarusian National Technical University \  Mechanical Engineering Department 2003
 * Codecademy courses : Introduction to HTML, Learn CSS, Introduction to JavaScript
