@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Andrei Chuyanov CV</title>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+
+  <body>
+    <div class="mainblock">
+        <header class="header">
+            <p>Junior Frontend Developer CV</p>
+        </header>
+
+
+        <main>
+            <section class="subsection" id="name">
+                <h1>Andrei Chuyanov</h1>
+                <figure>
+                    <img src='images\ach.jpg' alt="ACH photo" width="202" height="202">
+                 </figure>
+            </section>
+      
+      
+            <section class="subsection" id="contacts">
+                <h2>Contacts</h2>
+            
+                <ul>
+                  <li>email: <span class="email">achuyanov@gmail.com</span></li>
+                  <li>skype: andrei.chuyanov</li>
+                  <li>mobile: +375297540133</li>
+                </ul>
+            </section>
+            
+            <section class="subsection" id="summary">
+                <h2>Summary</h2>
+                <p>I already have some programming knowledge. I want to know more techolodgies and be able to use it.</p>
+            </section>
+            
+            
+            <section class="subsection" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                  <li>Windows, Linux, Sun Solaris, FreeBSD</li>
+                  <li>Programming for different CAD systems (CATScript, VB, Autodesk Intent Language, etc.)</li>
+                  <li>SVN, Git</li>
+                  <li>HTML/CSS/JS</li>
+                  <li>SQL</li>
+                  <li>XML</li>
+                </ul> 
+            </section>
+            
+      
+            <section class="subsection" id="code-example">
+                <h2 >Code example</h2>
+                <pre class="code">
+    let getCellRangeFunc = this.getCellRange;
+    return function(workSheet, range){
+        const dataFromExcel = getCellRangeFunc(workSheet, range)
+        const dataFromExcelLength = dataFromExcel.length
+        let obj = {}
+        for (let i = 0; i < dataFromExcelLength; i++) {
+        let subArray = dataFromExcel[i]
+                if (subArray.length > 1) obj[subArray[0]] = subArray[subArray.length-1]
+        }
+        return obj;
+    }
+                </pre>
+            </section>
+                
+            
+            <section class="subsection" id="experience">
+                <h2>Experience</h2>
+                <p>Engineering automation projects - 5 years. Work in multilingual environments.</p>
+            </section>
+            
+      
+            <section class="subsection" id="education">
+                <h2>Education</h2>
+                <ul>
+                  <li>Belarusian National Technical University \  Mechanical Engineering Department 2003</li>
+                  <li>Codecademy courses : Introduction to HTML, Learn CSS, Introduction to JavaScript</li>
+                </ul>
+            </section>
+            
+      
+            <section class="subsection" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                  <li>English - B2</li>
+                  <li>French - A1</li>
+                  <li>Polish - A2</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+      
+      
+      
+
+
+      
+
+  </body>
+</html>
