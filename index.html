@@ -37,7 +37,7 @@
             
             <section class="subsection" id="summary">
                 <h2>Summary</h2>
-                <p>I already have some programming knowledge. I want to know more techolodgies and be able to use it.</p>
+                <p>I already have some programming knowledge. I want to know more technologies and be able to use it.</p>
             </section>
             
             
@@ -62,7 +62,7 @@
         const dataFromExcel = getCellRangeFunc(workSheet, range)
         const dataFromExcelLength = dataFromExcel.length
         let obj = {}
-        for (let i = 0; i < dataFromExcelLength; i++) {
+        for (let i = 0; i &lt; dataFromExcelLength; i++) {
         let subArray = dataFromExcel[i]
                 if (subArray.length > 1) obj[subArray[0]] = subArray[subArray.length-1]
         }
@@ -96,6 +96,7 @@
                 </ul>
             </section>
         </main>
+        <footer></footer>
     </div>
 
       
