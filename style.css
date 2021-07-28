@@ -9,7 +9,7 @@ body {
 
 .mainblock {
     max-width: 800px;
-    margin: 8;
+    margin: 8px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 32px;
@@ -25,7 +25,7 @@ ul {
 
 p {
     padding-left: 24px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 16px;
 }
 
@@ -35,8 +35,8 @@ header p {
 
 figure {
     display: block;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
     margin-inline-start: 8px;
     margin-inline-end: 40px;
 }
@@ -63,8 +63,6 @@ figure {
     margin-bottom: 0px;
     font-weight: 600;
     line-height: 1.25;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     word-wrap: break-word;
 }
 
