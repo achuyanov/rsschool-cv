@@ -62,7 +62,7 @@
         let obj = {}
         for (let i = 0; i &lt; dataFromExcelLength; i++) {
         let subArray = dataFromExcel[i]
-                if (subArray.length &lt; 1) obj[subArray[0]] = subArray[subArray.length-1]
+                if (subArray.length &gt; 1) obj[subArray[0]] = subArray[subArray.length-1]
         }
         return obj;
     }
