@@ -84,13 +84,11 @@ figure {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin: 24px;
+    margin: 0px;
     padding: 0px;
 }
 
 .footer_items li {
-    font-size: 16px;
+    font-size: 12px;
     display: inline-block;
-    width: 20%;
-
 }
